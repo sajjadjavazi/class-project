@@ -1,0 +1,26 @@
+#menu {
+    border: solid 1px #ff3400;
+    width: 20%;
+    display: block;
+    position: relative;
+}
+#content {
+    border: solid 1px #f44d00; 
+    width: 80%;
+    display: block;
+    position: relative;
+}
+.item {
+    border: solid 1px #56f450;
+}
+.item:hover{
+    background-color: red;
+    cursor: pointer;
+}
+body {
+    display: inline-flex;
+    width: 100%;
+    direction: rtl;
+    height: 100%;
+}
+
